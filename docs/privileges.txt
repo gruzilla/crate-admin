@@ -1,5 +1,34 @@
-.. _privileges:
+.. _privileges-browser:
 
 ==================
 Privileges Browser
 ==================
+
+The CrateDB admin UI comes with a *privileges browser* screen that allows you
+to inspect `users`_ and `privileges`_.
+
+.. NOTE::
+
+   The privileges browser is an `enterprise feature`_.
+
+.. rubric:: Table of Contents
+
+.. contents::
+   :local:
+
+Screenshot
+==========
+
+.. image:: privileges-superuser.png
+
+.. image:: privileges-user.png
+
+Features
+========
+
+.. |nbsp| unicode:: 0xA0
+   :trim:
+
+.. _users: https://crate.io/docs/crate/reference/en/latest/admin/user-management.html
+.. _privileges: https://crate.io/docs/crate/reference/en/latest/admin/privileges.html
+.. _enterprise feature: https://crate.io/docs/crate/reference/en/latest/enterprise/index.html

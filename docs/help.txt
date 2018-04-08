@@ -1,5 +1,21 @@
-.. _help:
+.. _help-screen:
 
 ===========
 Help Screen
 ===========
+
+.. rubric:: Table of Contents
+
+.. contents::
+   :local:
+
+Screenshot
+==========
+
+.. image:: help-default.png
+
+Features
+========
+
+.. |nbsp| unicode:: 0xA0
+   :trim:
