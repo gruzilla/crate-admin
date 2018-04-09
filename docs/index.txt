@@ -91,6 +91,7 @@ Tabs
 
    console
    tables
+   views
    shards
    cluster
    monitoring
