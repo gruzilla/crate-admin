@@ -100,6 +100,10 @@ Tabs
 
 Running down the left-hand side, from top to bottom, the tabs are:
 
+.. TODO: add back in once this land's on crate/crate master
+.. TODO: update main screenshot too
+.. - :ref:`Views browser <views>`
+
 - `Overview screen`_
 
 - :ref:`SQL console <sql-console>`

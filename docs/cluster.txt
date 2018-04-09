@@ -134,21 +134,26 @@ Shards
 Disk Operations
 ---------------
 
+.. CAUTION::
+
+   These values are read from the ``sys.nodes`` `fs object`_, which is now
+   deprecated. For the time being, this section is non-function.
+
 :Read:
 
-  FIXME: what is this?
+  Total size of reads on the disk in bytes.
 
 :Write:
 
-  FIXME: what is this?
+  Total size of writes on the disk in bytes.
 
 :Reads:
 
-  FIXME: what is this?
+  Number of reads on the disk.
 
 :Writes:
 
-  FIXME: what is this?
+  Number of writes on the disk.
 
 .. _cluster: https://crate.io/docs/crate/guide/en/latest/architecture/shared-nothing.html
 .. _master node: https://crate.io/docs/crate/reference/en/latest/config/node.html#node-types
@@ -156,3 +161,4 @@ Disk Operations
 .. _HTTP endpoint: https://crate.io/docs/crate/reference/en/latest/interfaces/http.html
 .. _heap: https://en.wikipedia.org/wiki/Java_virtual_machine#Generational_heap
 .. _load: https://en.wikipedia.org/wiki/Load_(computing)
+.. _fs object: https://crate.io/docs/crate/reference/en/latest/admin/system-information.html#fs
