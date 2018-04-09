@@ -97,7 +97,7 @@ The table overview displays the following table-level information:
 
 :Started Shards:
 
-  FIXME: what is this?
+  The number of started shards assigned to the node and  available for querying.
 
 :Missing Shards:
 
