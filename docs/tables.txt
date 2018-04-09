@@ -65,7 +65,27 @@ The table overview displays the following table-level information:
 
   The health of the table.
 
-  FIXME: what are the available options
+  Each table `shard`_ has a corresponding health status. The table-level health
+  status always reflects the worst shard status. (Similarly, the
+  :ref:`cluster-level status <status-bar>` always reflects the worst
+  table-level status.)
+
+  Shards can be one of the following:
+
+  :Green:
+
+    The primary shard and all replica shards are allocated.
+
+  :Yellow:
+
+    The primary shard is allocated, but not all replica shards are allocated.
+
+  :Red:
+
+    This specific shard is not allocated.
+
+
+  FIXME: add brief explanation of what allocated means
 
 :Configured Replicas:
 
@@ -85,18 +105,21 @@ The table overview displays the following table-level information:
 
 :Underrepl. Shards:
 
-  FIXME: what is this?
+  The total number of configured replica shards that are currently missing
+  (i.e. not created or re-created yet).
 
 :Total Records:
+
   The total number of records (i.e. rows) the table has.
 
 :Unavailable Records:
 
-  FIXME: what is this?
+  The total number of records that should exist in missing shards.
 
 :Underrepl. Records:
 
-  FIXME: what is this?
+  The total number of records that exist in configured replica shards that are
+  currently missing (i.e. not created or re-created yet).
 
 :Size:
 
@@ -104,7 +127,8 @@ The table overview displays the following table-level information:
 
 :Recovery:
 
-  FIXME: what is this?
+  The percentage of the recovery process that is complete (i.e. when re-starting
+  a cluster).
 
 .. _schema-info:
 
@@ -145,3 +169,4 @@ Other Features
 .. _replicas: https://crate.io/docs/crate/reference/en/latest/general/ddl/replication.html
 .. _number of configured shards: https://crate.io/docs/crate/reference/en/latest/general/ddl/sharding.html#number-of-shards
 .. _data type: https://crate.io/docs/crate/reference/en/latest/general/ddl/data-types.html
+.. _shard: https://crate.io/docs/crate/reference/en/latest/general/ddl/sharding.html

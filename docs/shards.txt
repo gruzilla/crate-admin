@@ -79,7 +79,7 @@ Features
 
   :Initializing: (dark yellow)
 
-     The shard is being initialized (i.e. started).
+     The shard is being initialized (i.e. being `recovered`_).
 
      FIXME: is this true?
 
@@ -99,3 +99,4 @@ Features
 .. _document tables: https://crate.io/docs/crate/reference/en/latest/general/ddl/create-table.html
 .. _BLOB tables: https://crate.io/docs/crate/reference/en/latest/general/blobs.html
 .. _replica: https://crate.io/docs/crate/reference/en/latest/general/ddl/replication.html
+.. _recovered: https://crate.io/docs/crate/reference/en/latest/config/cluster.html#recovery
