@@ -84,7 +84,6 @@ The table overview displays the following table-level information:
 
     This specific shard is not allocated.
 
-
   FIXME: add brief explanation of what allocated means
 
 :Configured Replicas:
